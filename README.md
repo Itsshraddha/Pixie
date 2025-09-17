@@ -17,15 +17,14 @@ It combines:
 - 🗣 **Text-to-Speech** – Speaks responses aloud.  
 - 🤖 **AI Chat** – Powered by **Gemini 1.5 Flash** model.  
 - 🌐 **Web Automation** – Opens Google, YouTube, or News instantly.  
-- 🎵 **Music Playback** – Plays specific songs via YouTube links.  
-- 🔔 **Notification Sound** – Plays a "ding" before listening.  
+- 🎵 **Music Playback** – Plays specific songs via YouTube links.    
 
 ---
 
 ## 📂 Project Structure
 ```
 PIXIE/
-
+├── 🖼️ PixieLogo.png        # Logo
 ├── 🧠 main.py              # Core assistant script (voice recognition + Gemini AI + commands)
 ├── 🎶 music.py             # Song dictionary (title → YouTube link) + Gemini API key
 ├── 📦 requirements.txt     # Python dependencies
@@ -34,7 +33,7 @@ PIXIE/
 
 ---
 ## Demo Video
-Link:-https://drive.google.com/file/d/1xpi5SOZOgWujgMy1Thla07FCpLaKgqQS/view?usp=sharing
+Link:- 
 ---
 
 ## 📦 Prerequisites
@@ -68,8 +67,13 @@ You can download the file from this link: https://freesound.org/people/jdwilko/s
 The music.py file also holds the URLs for the songs that MIRA can play. You'll need to define your own dictionary of songs and their YouTube links.
 ```python
 music = {
-    "na ja": "https://youtu.be/Q-GOFPM01d0?si=BtiRqQX431nKKRl3",
-    "sahiba": "https://youtu.be/n2dVFdqMYGA?si=m6yfuBzTiHbrx69W",
+    "fire": "https://www.youtube.com/watch?v=2cTZTqBU1Rc&list=RD2cTZTqBU1Rc&start_radio=1&pp=ygUEZmlyZaAHAQ%3D%3D",
+    "still with you" : "https://www.youtube.com/watch?v=BksBNbTIoPE&list=RDBksBNbTIoPE&start_radio=1&pp=ygUOc3RpbGwgd2l0aCB5b3WgBwE%3D",
+    "3d" : "https://www.youtube.com/watch?v=mHNCM-YALSA&list=RDmHNCM-YALSA&start_radio=1&pp=ygUCM2SgBwE%3D",
+    "please don't change" : "https://www.youtube.com/watch?v=Shz9iLeE6i4&list=RDShz9iLeE6i4&start_radio=1&pp=ygUccGxlYXNlIGRvbid0IGNoYW5nZSBqdW5na29va6AHAQ%3D%3D",
+    "butter":"https://www.youtube.com/watch?v=WMweEpGlu_U&list=RDWMweEpGlu_U&start_radio=1&pp=ygUGYnV0dGVyoAcB",
+    "salamat": "https://www.youtube.com/watch?v=6XNTtcvErZc&list=RD6XNTtcvErZc&start_radio=1&pp=ygUGc2xhbWF0oAcB0gcJCbIJAYcqIYzv"
+}
     # Add your own songs here
 }
 ```
