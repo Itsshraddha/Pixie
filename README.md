@@ -48,12 +48,11 @@ pip install -r requirements.txt
 # Setup and Configuration
 
 ## 1. Gemini AI API Key
-MIRA uses the Gemini AI model. To get started, you'll need to obtain an API key from **Google AI Studio**.
+PIXIE uses the Gemini AI model. To get started, you'll need to obtain an API key from **Google AI Studio**.
 
 1. Go to [Google AI Studio](https://aistudio.google.com/).
 2. Create a new API key.
-3. Create a file named `music.py` in the same directory as the main script.
-4. Inside `music.py`, add your API key like this:
+3. Configure your API KEY in main.py
 
 ```python
 apikey = "YOUR_API_KEY_HERE"
@@ -90,15 +89,15 @@ python your_script_name.py
 ```
 ---
 # Usage
-- Once you run the script, MIRA will initialize and say "Initializing MIRA...".
+- Once you run the script, PIXIE will initialize and say "Initializing MIRA...".
 
-- Listen for Commands: MIRA will automatically start listening for your voice.
+- Listen for Commands: PIXIE will automatically start listening for your voice.
 
 - Give a Command: Say one of the predefined commands, like "Open Google" or "Play Old Town Road."
 
-- Ask a Question: Ask MIRA any question, and it will use Gemini AI to respond.
+- Ask a Question: Ask PIXIE any question, and it will use Gemini AI to respond.
 
-- Exit: To end the program, say "Bye-bye."
+- Exit: To end the program, say "OKAY."
 # Troubleshooting
 - "Recognition Error": This usually means you have a problem with your microphone or internet connection.
 
