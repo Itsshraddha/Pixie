@@ -1,7 +1,7 @@
-![MIRA LOGO](MIRA.png)
-# 🎙️ MIRA – AI Voice Assistant
+![PIXIE LOGO](PixieLogo.png)
+# 🎙️ PIXIE – AI Voice Assistant
 
-MIRA is a **Python-based AI voice assistant** that listens to your voice, processes commands, responds intelligently using **Google Gemini AI**, and performs actions like opening websites or playing songs from YouTube.  
+Pixie is a **Python-based AI voice assistant** that listens to your voice, processes commands, responds intelligently using **Google Gemini AI**, and performs actions like opening websites or playing songs from YouTube.  
 
 It combines:  
 - 🎤 Speech Recognition  
@@ -24,8 +24,8 @@ It combines:
 
 ## 📂 Project Structure
 ```
-MIRA/
-├── 🎵 ding-36029.mp3       # Notification sound (plays when assistant starts listening)
+PIXIE/
+
 ├── 🧠 main.py              # Core assistant script (voice recognition + Gemini AI + commands)
 ├── 🎶 music.py             # Song dictionary (title → YouTube link) + Gemini API key
 ├── 📦 requirements.txt     # Python dependencies
